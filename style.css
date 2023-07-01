@@ -399,5 +399,98 @@ b{
     margin:7px;
 }
 
+/* Add the following CSS code at the end of your existing CSS */
+
+/* Responsive Styles for Header */
+@media screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  nav {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin: 5px;
+  }
+}
+
+/* Responsive Styles for About Section */
+@media screen and (max-width: 768px) {
+  .about-text {
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+  }
+
+  .about img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Responsive Styles for Skills Section */
+@media screen and (max-width: 768px) {
+  .skill h1 {
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .all,
+  .all1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .progress-bar,
+  .progress-bar1,
+  .progress-bar2,
+  .progress-bar3,
+  .progress-bar4,
+  .progress-bar5 {
+    margin: 10px;
+  }
+
+  .progress-bar::before,
+  .progress-bar1::before,
+  .progress-bar2::before,
+  .progress-bar3::before,
+  .progress-bar4::before,
+  .progress-bar5::before {
+    font-size: 14px;
+  }
+}
+
+/* Responsive Styles for Footer */
+@media screen and (max-width: 768px) {
+  footer {
+    height: auto;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa {
+    font-size: 30px;
+    margin: 5px;
+  }
+}
 
 
