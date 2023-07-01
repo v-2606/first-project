@@ -402,7 +402,7 @@ b{
 /* Add the following CSS code at the end of your existing CSS */
 
 /* Responsive Styles for Header */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1010px) {
   .header {
     height: auto;
     padding-bottom: 20px;
@@ -427,6 +427,56 @@ b{
     margin: 5px;
   }
 }
+
+@media screen and (max-width: 768px) {
+    .slide {
+        margin: 50px auto;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .slide h1 {
+        font-size: 24px;
+    }
+
+    .slide p {
+        font-size: 16px;
+    }
+
+    .slide a {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+      font-size: 24px;
+      color: #007bb5;
+    }
+  
+    nav {
+      display: block;
+      text-align: center;
+    }
+  
+    nav ul {
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    nav ul li a {
+      display: inline-block;
+      font-size: 18px;
+      color: #dd4b39;
+     
+    }
+  }
+  
 
 /* Responsive Styles for About Section */
 @media screen and (max-width: 768px) {
